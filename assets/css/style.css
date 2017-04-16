@@ -1,0 +1,112 @@
+* {
+font-family: 'Open Sans', sans-serif;
+}
+body {
+  height: 100%;
+}
+.button.is-success {
+  background-color: #2EB398;
+}
+.nav.is-dark {
+  background-color: #232B2D;
+  color: #F6F7F7;
+}
+.nav.is-dark .nav-item a, .nav.is-dark a.nav-item {
+    color: #F6F7F7;
+}
+.nav.is-dark .nav-item a.button.is-default {
+    color: #F6F7F7;
+    background-color: transparent;
+    border-width: 2px;
+}
+
+.nav-right.is-aligned {
+    padding-top: 0.5rem;
+}
+
+.button.is-nav-button {
+    margin-right: 0.35rem;
+}
+
+.aside {
+  background-color: white;
+  margin-right: -10px;
+}
+
+.aside .main {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color:white;
+  border-right: 1px solid lightgray;
+  height: 100vh;
+}
+
+.aside .title {
+  color: #6F7B7E;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 5rem;
+
+}
+
+.aside .title .image.is-profile-image {
+  float: left;
+  margin-left: 1rem;
+}
+
+.aside .main .item {
+  display: block;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 2rem;
+  color: #6F7B7E;
+  text-transform: uppercase;
+  border-bottom: 1px solid lightgray;
+}
+
+.aside .main .item.active {
+  color:lightcoral;
+}
+
+.aside .main .item.is-top {
+  border-top: 1px solid lightgray;
+}
+
+.aside .main .icon {
+  font-size: 19px;
+  padding-right: 30px;
+}
+
+.aside .main .name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.is-profile-desc {
+    float: right;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-right: 2.5rem;
+}
+
+.admin-panel {
+  padding-bottom: 0;
+}
+.content {
+  display: block;
+  background-color: #fff;
+  padding: 40px 20px;
+}
+.hero .tabs ul {
+    border-bottom: 1px solid #d3d6db;
+}
+
+.column.is-nav {
+    padding-top: 0.6rem;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.column.is-aside {
+    padding-left: 1rem;
+}
