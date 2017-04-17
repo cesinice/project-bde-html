@@ -122,13 +122,12 @@ body {
     padding-left: 1rem;
 }
 
-.is-activity-bottom-icon-link {
-    color: #404040;
+.is-article-card-footer {
+    padding-left: 5%;
 }
 
-.is-activity-date {
-    color:darkgrey;
-}
-.is-detail-link {
-    color:#DA001A;
+@media only screen and (max-width:860px) {
+    .is-article-card-footer {
+        font-size: 16px;
+    }
 }
