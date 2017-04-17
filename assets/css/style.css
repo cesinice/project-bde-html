@@ -124,5 +124,10 @@ body {
 
 .is-article-card-footer {
     padding-left: 5%;
-    font-size: inherit;
+}
+
+@media only screen and (max-width:860px) {
+    .is-article-card-footer {
+        font-size: 16px;
+    }
 }
