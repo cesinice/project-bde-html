@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BDE Cesi</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+<div class="columns">
+    <aside class="column is-aside is-2 aside hero is-fullheight is-hidden-mobile">
+        <div>
+            <div class="main">
+                <div class="title">
+                    <div>
+                        <img class="image is-64x64 is-profile-image" src="./assets/img/profile.png" alt="Profile">
+                    </div>
+                    <div class="is-profile-desc">
+                        <p>Nom Prénom</p>
+                        <p>Rank</p>
+                        <a class="is-detail-link">Voir mon profil</a>
+                    </div>
+                </div>
+                <div>
+                    <a href="index.html" class="item is-top"><span class="icon"><i class="fa fa-home"></i></span><span
+                            class="name">Accueil</span></a>
+                    <a href="boutique.html" class="item"><span class="icon"><i
+                            class="fa fa-shopping-cart"></i></span><span
+                            class="name">Boutique</span></a>
+                    <a href="activites.html" class="item active"><span class="icon"><i
+                            class="fa fa-bicycle"></i></span><span class="name">Activités</span></a>
+                    <a href="#" class="item"><span class="icon"><i class="fa fa-paper-plane-o"></i></span><span
+                            class="name">Soumettre une activité</span></a>
+                    <a href="#" class="item"><span class="icon"><i class="fa fa-info-circle"></i></span><span
+                            class="name">A propos</span></a>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <div class="column is-nav is-10 admin-panel">
+        <nav class="nav has-shadow is-main-nav" id="top">
+            <div class="container">
+                <div class="nav-center">
+                    <a class="nav-item">
+                        <img src="./assets/img/logo-exia.png" style="max-height: 3.75rem;" alt="Description">
+                    </a>
+                </div>
+                <div class="nav-right nav-menu">
+                    <div class="nav-item">
+                        <div class="field is-grouped">
+                            <p class="control">
+                                <a class="button is-info is-outlined is-nav-button">Inscription</a>
+                            </p>
+                            <p class="control">
+                                <a class="button is-primary is-outlined is-nav-button">Connexion</a>
+                            </p>
+                            <p class="control">
+                                <a class="button is-danger is-outlined is-nav-button">Déconnexion</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+        <div class="fluid-container">
+            <div class="box">
+                <h1 class="title">
+                    Titre de l'activité
+                </h1>
+                <div class="columns">
+                    <div class="column is-one-third">
+                        <div class="card">
+                            <header class="card-header">
+                                <p class="card-header-title">
+                                    Détails
+                                </p>
+                            </header>
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
+                                </figure>
+                            </div>
+                            <div class="content">
+                                <div class="columns">
+                                    <div class="column is-half">
+                                        <div>
+                                            <p class="is-activity-info">
+                                                <span class="icon">
+                                                    <i class="fa fa-calendar-check-o"></i>
+                                                </span>
+                                                Début : 12/09/2017
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <p class="is-activity-info">
+                                                <span class="icon">
+                                                    <i class="fa fa-compass"></i>
+                                                </span>
+                                                Lieu : Sophia Antipolis
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <p class="is-activity-info">
+                                                <span class="icon">
+                                                    <i class="fa fa-users"></i>
+                                                </span>
+                                                Participants : 12/20
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="column is-half">
+                                        <div>
+                                            <p class="is-activity-info">
+                                                <span class="icon">
+                                                    <i class="fa fa-calendar-times-o"></i>
+                                                </span>
+                                                Fin : 25/09/2017
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <p class="is-activity-info">
+                                                <span class="icon">
+                                                    <i class="fa fa-eur"></i>
+                                                </span>
+                                                19.99
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-two-thirds">
+                        <div class="card">
+                            <header class="card-header">
+                                <p class="card-header-title">
+                                    Description de l'activité
+                                </p>
+                            </header>
+                            <div class="content">
+                                Et quia Mesopotamiae tractus omnes crebro inquietari sueti praetenturis et stationibus
+                                servabantur agrariis, laevorsum flexo itinere Osdroenae subsederat extimas partes, novum
+                                parumque aliquando temptatum commentum adgressus. quod si impetrasset, fulminis modo
+                                cuncta vastarat. erat autem quod cogitabat huius modi.
+
+                                Eodem tempore Serenianus ex duce, cuius ignavia populatam in Phoenice Celsen ante
+                                rettulimus, pulsatae maiestatis imperii reus iure postulatus ac lege, incertum qua
+                                potuit suffragatione absolvi, aperte convictus familiarem suum cum pileo, quo caput
+                                operiebat, incantato vetitis artibus ad templum misisse fatidicum, quaeritatum expresse
+                                an ei firmum portenderetur imperium, ut cupiebat, et cunctum.
+
+                                Eminuit autem inter humilia supergressa iam impotentia fines mediocrium delictorum
+                                nefanda Clematii cuiusdam Alexandrini nobilis mors repentina; cuius socrus cum misceri
+                                sibi generum, flagrans eius amore, non impetraret, ut ferebatur, per palatii
+                                pseudothyrum introducta, oblato pretioso reginae monili id adsecuta est, ut ad Honoratum
+                                tum comitem orientis formula missa letali omnino scelere nullo contactus idem Clematius
+                                nec hiscere nec loqui permissus occideretur.
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <div class="column is-one-third">
+                                <div class="box">
+                                    <div class="columns">
+                                        <div class="column is-half">
+                                            <p class="is-text-aligned-with-buttons">Rejoindre</p>
+                                        </div>
+                                        <div class="column is-half">
+                                            <a href="" class="button is-primary">
+                                                <span class="icon">
+                                                    <i class="fa fa-sign-in"></i>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column is-one-third">
+                                <div class="box">
+                                    <div class="columns">
+                                        <div class="column is-half">
+                                            <p class="is-text-aligned-with-buttons">Partager</p>
+                                        </div>
+                                        <div class="column is-half">
+                                            <a href="" class="button is-info">
+                                                <span class="icon">
+                                                    <i class="fa fa-twitter"></i>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column is-one-third">
+                                <div class="box">
+                                    <div class="columns">
+                                        <div class="column is-one-third">
+                                            <a class="button is-success">
+                                            <span class="icon">
+                                                <i class="fa fa-plus"></i>
+                                            </span>
+                                            </a>
+                                        </div>
+                                        <div class="column is-one-third">
+                                            <p class="is-vote-value">+26</p>
+                                        </div>
+                                        <div class="column is-one-third">
+                                            <a class="button is-danger">
+                                            <span class="icon">
+                                                <i class="fa fa-minus"></i>
+                                            </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="has-text-centered">
+            <p>Footer Example</p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+</body>
+
+</html>
