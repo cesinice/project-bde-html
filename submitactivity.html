@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BDE Cesi</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+<div class="columns">
+    <div class="column is-2 is-visible-widescreen">
+        <aside class="is-aside aside hero is-fullheight">
+            <div>
+                <div class="main">
+                    <div class="title">
+                        <div class="columns">
+                            <div class="column is-one-third">
+                                <img class="image is-64x64 is-profile-image" src="./assets/img/profile.png" alt="Profile">
+                            </div>
+                            <div class="column is-two-third is-profile-desc">
+                                <p>Nom Prénom</p>
+                                <p>Rank</p>
+                                <a class="is-detail-link">Voir mon profil</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="index.html" class="item is-top"><span class="icon"><i class="fa fa-home"></i></span><span
+                                class="name">Accueil</span></a>
+                        <a href="boutique.html" class="item"><span class="icon"><i
+                                class="fa fa-shopping-cart"></i></span><span
+                                class="name">Boutique</span></a>
+                        <a href="activites.html" class="item active"><span class="icon"><i
+                                class="fa fa-bicycle"></i></span><span class="name">Activités</span></a>
+                        <a href="#" class="item"><span class="icon"><i class="fa fa-paper-plane-o"></i></span><span
+                                class="name">Soumettre une activité</span></a>
+                        <a href="#" class="item"><span class="icon"><i class="fa fa-info-circle"></i></span><span
+                                class="name">A propos</span></a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <div class="column is-nav admin-panel">
+        <nav class="nav has-shadow is-main-nav" id="top">
+            <div class="container">
+                <div class="nav-left">
+                    <a class="nav-item is-hidden-widescreen">
+                        <span class="icon">
+                            <i class="fa fa-bars"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="nav-center">
+                    <a class="nav-item">
+                        <img src="./assets/img/logo-exia.png" style="max-height: 3.75rem;" alt="Description">
+                    </a>
+                </div>
+                <div class="nav-right nav-menu">
+                    <div class="nav-item">
+                        <div class="field is-grouped">
+                            <p class="control">
+                                <a class="button is-info is-outlined is-nav-button">Inscription</a>
+                            </p>
+                            <p class="control">
+                                <a class="button is-primary is-outlined is-nav-button">Connexion</a>
+                            </p>
+                            <p class="control">
+                                <a class="button is-danger is-outlined is-nav-button">Déconnexion</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+        <div class="fluid-container">
+            <div class="columns">
+                <div class="column is-two-thirds">
+                    <div class="content">
+                        <div class="field">
+                            <label class="label">Nom</label>
+                            <p class="control">
+                                <input class="input" type="text" placeholder="Nom de l'activité">
+                            </p>
+                        </div>
+
+                        <div class="field">
+                            <label class="label">Date de l'évènement</label>
+                        </div>
+                        <div class="field is-horizontal">
+                            <div class="field-body">
+                                <div class="field is-grouped">
+                                    <p class="control is-expanded">
+                                        <input class="input" type="text" placeholder="Date de début">
+                                    </p>
+                                </div>
+                                <div class="field">
+                                    <p class="control has-icons-left">
+                                        <input class="input" type="email" placeholder="Date de fin">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label class="label">Participants</label>
+                            <p class="control">
+                                <input class="input" type="text" placeholder="Nombre maximum d'inscrits">
+                            </p>
+                        </div>
+
+                        <div class="field">
+                            <label class="label">Prix</label>
+                            <p class="control">
+                                <input class="input" type="text" placeholder="Prix de l'évènement">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="content">
+                        <div class="field">
+                            <label class="label">Message</label>
+                            <p class="control">
+                                <textarea class="textarea" placeholder="Textarea"></textarea>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="has-text-centered">
+            <p>Footer Example</p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+</body>
+
+</html>
