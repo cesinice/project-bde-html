@@ -13,17 +13,19 @@
 </head>
 <body>
 <div class="columns">
-    <aside class="column is-aside is-2 aside hero is-fullheight is-hidden-mobile">
+    <aside class="column is-aside is-2 aside hero is-fullheight is-visible-widescreen">
         <div>
             <div class="main">
                 <div class="title">
-                    <div>
-                        <img class="image is-64x64 is-profile-image" src="./assets/img/profile.png" alt="Profile">
-                    </div>
-                    <div class="is-profile-desc">
-                        <p>Nom Prénom</p>
-                        <p>Rank</p>
-                        <a class="is-detail-link">Voir mon profil</a>
+                    <div class="columns">
+                        <div class="column is-one-third">
+                            <img class="image is-64x64 is-profile-image" src="./assets/img/profile.png" alt="Profile">
+                        </div>
+                        <div class="column is-two-third is-profile-desc">
+                            <p>Nom Prénom</p>
+                            <p>Rank</p>
+                            <a class="is-detail-link">Voir mon profil</a>
+                        </div>
                     </div>
                 </div>
                 <div>
@@ -42,9 +44,16 @@
             </div>
         </div>
     </aside>
-    <div class="column is-nav is-10 admin-panel">
+    <div class="column is-nav admin-panel">
         <nav class="nav has-shadow is-main-nav" id="top">
             <div class="container">
+                <div class="nav-left">
+                    <a class="nav-item is-hidden-widescreen">
+                        <span class="icon">
+                            <i class="fa fa-bars"></i>
+                        </span>
+                    </a>
+                </div>
                 <div class="nav-center">
                     <a class="nav-item">
                         <img src="./assets/img/logo-exia.png" style="max-height: 3.75rem;" alt="Description">
