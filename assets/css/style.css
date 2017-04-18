@@ -55,7 +55,6 @@ body {
     color: #6F7B7E;
     font-size: 12px;
     font-weight: bold;
-    margin-bottom: 5rem;
 }
 
 .aside .title .image.is-profile-image {
@@ -155,6 +154,10 @@ body {
 
 .is-vote-value {
     padding-top:10%;
+}
+
+.is-nav-title {
+    margin-bottom:0;
 }
 
 @media only screen and (max-width: 860px) {
